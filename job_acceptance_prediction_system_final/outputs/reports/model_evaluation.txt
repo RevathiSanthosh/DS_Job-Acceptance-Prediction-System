@@ -1,0 +1,104 @@
+JOB ACCEPTANCE — MODEL EVALUATION REPORT
+============================================================
+
+BEST MODEL : Logistic Regression
+
+
+───────────────────────────────────────────────────────
+Model: Logistic Regression ← BEST
+  Accuracy    : 0.6392
+  Precision   : 0.6967
+  Recall      : 0.6353
+  F1 Score    : 0.6646
+  AUC-ROC     : 0.6978
+  CV AUC (5K) : 0.6970 ± 0.0042
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Not Placed       0.58      0.64      0.61      4374
+      Placed       0.70      0.64      0.66      5626
+
+    accuracy                           0.64     10000
+   macro avg       0.64      0.64      0.64     10000
+weighted avg       0.65      0.64      0.64     10000
+
+
+───────────────────────────────────────────────────────
+Model: K-Nearest Neighbors
+  Accuracy    : 0.5801
+  Precision   : 0.6151
+  Recall      : 0.6777
+  F1 Score    : 0.6449
+  AUC-ROC     : 0.5956
+  CV AUC (5K) : 0.5918 ± 0.0037
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Not Placed       0.52      0.45      0.49      4374
+      Placed       0.62      0.68      0.64      5626
+
+    accuracy                           0.58     10000
+   macro avg       0.57      0.57      0.57     10000
+weighted avg       0.57      0.58      0.58     10000
+
+
+───────────────────────────────────────────────────────
+Model: Decision Tree
+  Accuracy    : 0.6078
+  Precision   : 0.6804
+  Recall      : 0.5711
+  F1 Score    : 0.6210
+  AUC-ROC     : 0.6562
+  CV AUC (5K) : 0.6571 ± 0.0033
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Not Placed       0.54      0.66      0.59      4374
+      Placed       0.68      0.57      0.62      5626
+
+    accuracy                           0.61     10000
+   macro avg       0.61      0.61      0.61     10000
+weighted avg       0.62      0.61      0.61     10000
+
+
+───────────────────────────────────────────────────────
+Model: Random Forest
+  Accuracy    : 0.6380
+  Precision   : 0.6872
+  Recall      : 0.6545
+  F1 Score    : 0.6704
+  AUC-ROC     : 0.6891
+  CV AUC (5K) : 0.6894 ± 0.0029
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Not Placed       0.58      0.62      0.60      4374
+      Placed       0.69      0.65      0.67      5626
+
+    accuracy                           0.64     10000
+   macro avg       0.63      0.64      0.63     10000
+weighted avg       0.64      0.64      0.64     10000
+
+
+───────────────────────────────────────────────────────
+Model: Gradient Boosting
+  Accuracy    : 0.6471
+  Precision   : 0.6631
+  Recall      : 0.7576
+  F1 Score    : 0.7072
+  AUC-ROC     : 0.6958
+  CV AUC (5K) : 0.6918 ± 0.0039
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Not Placed       0.62      0.51      0.56      4374
+      Placed       0.66      0.76      0.71      5626
+
+    accuracy                           0.65     10000
+   macro avg       0.64      0.63      0.63     10000
+weighted avg       0.64      0.65      0.64     10000

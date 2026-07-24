@@ -1,0 +1,21 @@
+JOB ACCEPTANCE — DATA CLEANING REPORT
+=======================================================
+
+[S1_duplicates]
+  before: 51000
+  removed: 1000
+  after: 50000
+
+[S2_categoricals]
+  changed: {'company_tier': 5976, 'competition_level': 6066, 'gender': 5712}
+
+[S3_missing]
+  imputed: {'gpa': {'method': 'median', 'filled': 2924, 'value': 7.19}, 'years_experience': {'method': 'median', 'filled': 2431, 'value': 1.6}, 'skills_match_pct': {'method': 'median', 'filled': 3494, 'value': 60.8}, 'interview_score': {'method': 'median', 'filled': 3983, 'value': 63.0}, 'aptitude_score': {'method': 'median', 'filled': 4973, 'value': 57.0}, 'employability_score': {'method': 'median', 'filled': 4479, 'value': 58.9}, 'offered_salary_inr': {'method': 'median', 'filled': 2021, 'value': 902670.0}, 'certification': {'method': 'mode', 'filled': 2989, 'value': 'None'}}
+  total_filled: 27294
+
+[S4_consistency]
+  fixes: {}
+
+[S5_target]
+  distribution: {'Placed': 28131, 'Not Placed': 21869}
+  placement_rate: 56.26
